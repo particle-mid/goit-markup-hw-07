@@ -17,34 +17,34 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--шапка-->
      
     <header class="header">
-    <div class="container main-nav">
-      <nav class="header-nav">
-        <a href="./" class="logo"><span>Web</span>Studio </a>
-        <ul class="nav-list list">
-          <li class="item"><a href="./index.html" class="link current">Студія</a></li>
-          <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li class="item"><a href="#" class="link">Контакти</a></li>
+    <div class="container header__container">
+      <nav class="header__nav">
+        <a href="./" class="logo">Web<span class="logo__text">Studio</span> </a>
+        <ul class="nav-list header__nav-list list">
+          <li class="nav-list__item"><a href="./index.html" class="link nav-list__link nav-list__link--current">Студія</a></li>
+          <li class="nav-list__item"><a href="./portfolio.html" class="link nav-list__link">Портфоліо</a></li>
+          <li class="nav-list__item"><a href="#" class="link nav-list__link">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="header-contacts list">
+      <ul class="contacts-list header__contacts-list list">
 
-        <li class="contacts-item">
-          <a href="mailto:info@devstudio.com" class="link"
+        <li class="contacts-list__item">
+          <a href="mailto:info@devstudio.com" class="contacts-list__link link"
             >
-            <svg  class="contacts-icon" width="16" height="12" >
+            <svg  class="contacts-list__icon" width="16" height="12" >
               <use href="./images/icons.svg#envelope"></use>
             </svg>
             info@devstudio.com </a
           >
         </li>
-        <li class="contacts-item"><a href="tel:+380961111111" class="link">
-          <svg class="contacts-icon" width="10" height="16">
+        <li class="contacts-list__item"><a href="tel:+380961111111" class="contacts-list__link link">
+          <svg class="contacts-list__icon" width="10" height="16">
             <use href="./images/icons.svg#telephone"></use>
           </svg>
           +38 096 111 11 11</a></li>
@@ -56,61 +56,61 @@
       <!--Hero-->
 
       <section class="hero">
-        <div class="container">
-        <h1 class="hero-title">Ефективні рішення для<br /> вашого бізнесу</h1>
-        <button  type="button" class="hero-button button" data-modal-open>Замовити послугу</button>
+        <div class="hero__container container">
+        <h1 class="hero__title">Ефективні рішення для<br /> вашого бізнесу</h1>
+        <button  type="button" class="hero__button button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
 
       <!--feature-->
 
       <section class="feature section">
-       <div class="container">
+       <div class="feature-container container">
         <h2 class="visually-hidden">Особливості</h2>
-        <ul class="feature-list list">
-          <li class="feature-item">
-            <div class="feature-bcg">
-            <svg class="feature-icon" width="70" height="70">
+        <ul class="feature__list list">
+          <li class="feature__item">
+            <div class="feature__icon">
+            <svg  width="70" height="70">
               <use href="./images/icons.svg#icon-antenna"></use>
             </svg>
            </div>
-            <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="text">
+            <h3 class="feature__label section__label">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="feature__text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li class="feature-item">
-            <div class="feature-bcg">
-              <svg class="feature-icon" width="70" height="70">
+          <li class="feature__item">
+            <div class="feature__icon">
+              <svg width="70" height="70">
                 <use href="./images/icons.svg#clock"></use>
               </svg>
              </div>
-            <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="text">
+            <h3 class="feature__label section__label">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="feature__text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li class="feature-item">
-            <div class="feature-bcg">
-              <svg class="feature-icon" width="70" height="70">
+          <li class="feature__item">
+            <div class="feature__icon">
+              <svg width="70" height="70">
                 <use href="./images/icons.svg#diagram"></use>
               </svg>
              </div>
-            <h3 class="title">ПЛАНУВАННЯ</h3>
-            <p class="text">
+            <h3 class="feature__label section__label">ПЛАНУВАННЯ</h3>
+            <p class="feature__text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="feature-item">
-            <div class="feature-bcg">
-              <svg class="feature-icon" width="70" height="70">
+          <li class="feature__item">
+            <div class="feature__icon">
+              <svg  width="70" height="70">
                 <use href="./images/icons.svg#astronaut"></use>
               </svg>
              </div>
-            <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="text">
+            <h3 class="feature__label section__label">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="feature__text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -132,13 +132,13 @@
               width="370"
             />
             <div class="example-name">
-              <h3 class="example-title title">Десктопні додатки</h3>
+              <h3 class="example-title section__label">Десктопні додатки</h3>
             </div>
           </li>
           <li class="examples-item">
             <img src="./images/mobile.jpg" alt="мобільні додатки" width="370" />
             <div class="example-name">
-              <h3 class="example-title title">Мобільні додатки</h3>
+              <h3 class="example-title section__label">Мобільні додатки</h3>
             </div>
           </li>
           <li class="examples-item">
@@ -148,7 +148,7 @@
               width="370"
             />
             <div class="example-name">
-              <h3 class="example-title title">Дизайнерські рішення</h3>
+              <h3 class="example-title section__label">Дизайнерські рішення</h3>
             </div>
           </li>
         </ul>
@@ -376,7 +376,7 @@
     <footer class="footer">
      <div class="footer-container container">
       <div class="footer-box">
-      <a href="/" class="logo"><span>Web</span>Studio </a>
+      <a href="/" class="logo">Web<span class="logo__text--inverse">Studio</span></a>
       <address class="footer-address">
         <ul class="footer-list list">
           <li class="footer-item">

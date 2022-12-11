@@ -717,7 +717,6 @@ img {
   fill: transparent;
   transition: background-color 250ms var(--cubic-bezier), border-color 250ms var(--cubic-bezier), fill 250ms var(--cubic-bezier);
 }
-
 .modal-check:checked + .check-icon {
   background-color: var(--accent-color);
   border-color: transparent;

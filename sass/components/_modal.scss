@@ -144,13 +144,14 @@ transition: border-color 250ms var(--cubic-bezier);
   transition: background-color 250ms var(--cubic-bezier),
   border-color 250ms var(--cubic-bezier),
   fill 250ms var(--cubic-bezier);
+  .modal-check:checked + & {
+    background-color: var(--accent-color);
+    border-color:transparent; 
+    fill: var(--white-color);
+  }
 }
 
-.modal-check:checked + .check-icon{
-  background-color: var(--accent-color);
-  border-color:transparent; 
-  fill: var(--white-color);
-}
+
 .checkbox-text{
   font-size: 14px;
     line-height: 1.7;

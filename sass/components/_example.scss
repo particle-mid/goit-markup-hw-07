@@ -1,6 +1,12 @@
 .examples{
     padding-top: 0;
-    
+    & .example-title {
+      color:var(--white-color);
+      text-transform:uppercase;
+    };
+    & .section-title {
+      margin-bottom: 50px;
+    }
   }
   .examples-list{
   display: flex;
@@ -20,11 +26,4 @@
     height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
   }
-  .examples .example-title {
-    color:var(--white-color);
-    text-transform:uppercase;
-  }
   
-  .examples .section-title {
-    margin-bottom: 50px;
-  }

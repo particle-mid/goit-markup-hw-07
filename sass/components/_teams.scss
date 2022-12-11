@@ -1,5 +1,18 @@
 .teams {
     background-color: var(--section-background-teams-color);
+    & .title {
+      color: var(--title-color);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.2;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    & .text {
+      font-size: 16px;
+      line-height: 1.9;
+      text-align: center;
+    }
   }
 
   .section-title {
@@ -23,24 +36,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .teams .title {
-    margin-bottom: 10px;
-  }
   
-  .teams .title {
-    color: var(--title-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  .teams .text {
-    font-size: 16px;
-    line-height: 1.9;
-    text-align: center;
-  }
 
   .soc-list{
     display: flex;
